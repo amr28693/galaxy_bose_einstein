@@ -36,7 +36,7 @@ Results are also saved to `bose_einstein_results.json` and `bose_einstein_plotda
 
 ---
 
-## If you want the figures
+## To generate the figure:
 
 **Figure 1** (the headline RAR comparison, three panels):
 
