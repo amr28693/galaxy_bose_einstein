@@ -46,7 +46,7 @@ python3 make_rar_figure.py
 
 Requires `bose_einstein_plotdata.csv` — run `rar_bose_einstein.py` first if not already present.
 
-Outputs: `mond_be_rar_figure.pdf` and `mond_be_rar_figure.png`
+Outputs: `be_rar_figure.pdf` and `be_rar_figure.png`
 
 ---
 
