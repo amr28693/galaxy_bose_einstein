@@ -38,6 +38,9 @@ Results are also saved to `bose_einstein_results.json` and `bose_einstein_plotda
 
 ## to generate the figure:
 
+<img width="1282" height="1338" alt="be_rar_figure" src="https://github.com/user-attachments/assets/cfed3f2e-8cf7-4d42-b349-cee2159370ee" />
+
+
 **Figure 1** (the headline RAR comparison, three panels):
 
 ```bash
