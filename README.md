@@ -36,7 +36,7 @@ Results are also saved to `bose_einstein_results.json` and `bose_einstein_plotda
 
 ---
 
-## To generate the figure:
+## to generate the figure:
 
 **Figure 1** (the headline RAR comparison, three panels):
 
@@ -47,6 +47,18 @@ python3 make_rar_figure.py
 Requires `bose_einstein_plotdata.csv` — run `rar_bose_einstein.py` first if not already present.
 
 Outputs: `be_rar_figure.pdf` and `be_rar_figure.png`
+
+---
+
+## Supplementary statistics
+
+```bash
+python3 supplementary_stats.py
+```
+
+Requires `bose_einstein_plotdata.csv` — run `rar_bose_einstein.py` first if not already present.
+
+Outputs: `supplementary_stats.json` (Spearman, reduced χ², Anderson-Darling, MAD)
 
 ---
 
@@ -71,7 +83,7 @@ No other dependencies or GPU required. This should run quickly on any modern lap
 | `rar_galaxies.txt` | SPARC RAR dataset — 2,693 measurements across 153 galaxies (see citation below). |
 | `bose_einstein_results.json` | Cached numerical results from the analysis. |
 | `bose_einstein_plotdata.csv` | Per-point computed values (θ, n_BE, D_obs, D_pred, residuals). |
-
+| `supplementary_stats.py` | Supplementary statistical tests (Spearman, reduced χ², Anderson-Darling, MAD). |
 ---
 
 ## Data
